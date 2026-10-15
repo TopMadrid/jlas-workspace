@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nombrecuenta/jlas-workspace"
+    "url": "https://github.com/TopMadrid/jlas-workspace"
   },
   "keywords": [
     "jlas",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "author": "Jose L Aguilera",
   "bugs": {
-    "url": "https://github.com/nombrecuenta/jlas-workspace/issues"
+    "url": "https://github.com/TopMadrid/jlas-workspace/issues"
   },
   "peerDependencies": {
     "@angular/common": "^22.2.0",
