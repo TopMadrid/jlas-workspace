@@ -6,6 +6,9 @@
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
+    "paths": {
+      "jlas-side-menu": ["./dist/jlas-side-menu"]
+    },
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "isolatedModules": true,
@@ -19,5 +22,19 @@
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true
   },
-  "files": []
+  "files": [],
+  "references": [
+    {
+      "path": "./projects/jlas-side-menu/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/jlas-side-menu/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/jlas-testbed-app/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/jlas-testbed-app/tsconfig.spec.json"
+    }
+  ]
 }

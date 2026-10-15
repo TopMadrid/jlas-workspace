@@ -1,0 +1,12 @@
+<h1>Hola Mundo</h1>
+<p>Hola de nuevo</p>
+<h1 class="text-3xl font-bold underline">
+  Hello world!
+</h1>
+<!-- Prueba de la libreria jlas-side-menu -->
+<lib-jlas-side-menu 
+[isAuthenticated]="isAuthenticated()"
+[titleColor]="TitleColor.red"
+(signIn)="isAuthenticated.set(true)"
+(signOut)="isAuthenticated.set(false)"
+/>

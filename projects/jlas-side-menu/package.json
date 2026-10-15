@@ -1,0 +1,25 @@
+{
+  "name": "jlas-side-menu",
+  "version": "0.0.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nombrecuenta/jlas-workspace"
+  },
+  "keywords": [
+    "jlas",
+    "side-menu"
+  ],
+  "license": "MIT",
+  "author": "Jose L Aguilera",
+  "bugs": {
+    "url": "https://github.com/nombrecuenta/jlas-workspace/issues"
+  },
+  "peerDependencies": {
+    "@angular/common": "^22.2.0",
+    "@angular/core": "^22.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
